@@ -1,0 +1,23 @@
+sourhttps://www.it-swarm-es.com/es/python/como-instalar-pip-para-python-3-en-mac-os-x/1042756087/ modulos pip3
+- pip3 freeze = menu tout instaler 
+- brew --prefix openssl = command pour prefix
+- pip3 install virtualenv = est un outil qui vous permet de créer un environnement Python isolé pour votre projet. Il crée un environnement qui possède ses propres répertoires d'installation, qui ne partage pas de dépendances avec d'autres virtualenvenvironnements (et n'accède éventuellement pas non plus aux dépendances installées globalement). Vous pouvez même configurer la version de Python que vous souhaitez utiliser pour chaque environnement individuel. Il est fortement recommandé de l'utiliser virtualenvlorsqu'il s'agit d'applications Python.
+- python3 -m venv nomenv = pour creer le environnement virtuel 
+- source nomenv/bin/activate = pour activer le environnement virtuel  
+- pip3 freeze > requirements.txt = pour liste requirements
+- deactivate = pour desactiver flash y source activate pour le activer
+- pip freeze > requirements.txt = pour regarder tous le dependences 
+- rm -r crudenv = pour effacer l'environnement ou ficher
+- pip install -r requirements.txt = pour instaler tous les modules 
+- python -m idlelib = pour ouvrir l'environnement virtual dans le terminal
+
+-pip3 install flask flask-mysqldb flask-cors
+
+-  python src/app.py = pour lancer le serveur 
+
+
+---------------------------------------Frontend------------------------------------
+npx create-react-app client = lancer reactjs
+
+npm install react-router-dom bootswatch = dependences 
+en index import 'bootswatch/dist/lux/bootstrap.min.css'
